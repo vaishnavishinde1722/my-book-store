@@ -73,7 +73,7 @@ h2{
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
-    font-size: 18px;
+    font-size: 13px;
    
 }
 .subtitle{
@@ -97,7 +97,7 @@ h2{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    padding-left: 250px;
+    padding-left:250px;
     padding-right: 250px;
     justify-content: space-between;
 }
@@ -172,6 +172,9 @@ footer{
     h1{
         font-size: 40px;
     }
+    .div1{
+        margin-left: 50px;
+    }
     .subdiv1{
         height: 250px;
         width: 350px;
@@ -184,6 +187,34 @@ footer{
     .div4{
         display: none;
     }
+    h2{
+        font-size: 20px;
+    }
+    .button{
+        height: 20px;
+        width: 80px;
+        font-size: 15px;
+    }
+    .subtitle{
+        font-size: 25px;
+    }
+    .card-cont{
+        flex-direction: column;
+        padding-left: 80px;
+       
+    }
+    .img{
+        height: 100px;
+        width: 80px;
+    }
+    .footer-div1{
+        font-size: 10px;
+        margin: 0;
+    }
+    footer{
+        height: fit-content;
+        width: 100%;
+    }
 
 
  }
@@ -194,15 +225,33 @@ footer{
 
 /* tablet screen */
 @media screen and (min-width:481px) and (max-width:768px) {
-       
+  .subdiv1{
+    height: 350px;
+    width: 100%;
+  }
+  .div1{
+    width: 600px;
+  }
+  h1{
+    font-size: 50px;
+  }
+  .card-cont{
+    padding: 0;
+    justify-content: space-evenly;
+  }
+  .img{
+    height: 150px;
+  }
+  .footer-div1{
+    font-size: 18px;
+    margin: 0;
+  }
+  footer{
+    height: fit-content;
+    width: 100%;
+  }
+      
     
     
 }
 
-
-
-/* desktop device */
-@media screen and (min-width:769px) {
-
-     
-}
